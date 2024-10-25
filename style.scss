@@ -1,0 +1,78 @@
+@use "./partials/reset";
+@use "./partials/variables" as *;
+@use "./partials/mixin" as *;
+@use "./partials/typography" as *;
+
+.header {
+  background-color: $primary-color1;
+  height: 9rem;
+  @include flex;
+
+  &__title {
+    color: white;
+    font-size: 3rem;
+  }
+}
+
+.main {
+  @include flex;
+  background-color: $primary-color3;
+
+  &__max {
+    @include flex;
+    max-width: 80rem;
+  }
+
+  &__img {
+    width: 50vw;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  &__left-box {
+    @include flex;
+  }
+
+  &__img {
+    padding: 2rem;
+  }
+
+  &__right {
+    &-box {
+      padding: 2rem;
+      max-width: 30rem;
+    }
+
+    &-title {
+      font-size: 2rem;
+      color: $primary-color5;
+    }
+  }
+
+  &__content {
+    color: $primary-color5;
+  }
+
+  &__button {
+    border: none;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-family: "Arima", monospace, serif;
+    background-color: $primary-color1;
+    color: $primary-color5;
+    margin-top: 1rem;
+  }
+}
+
+.footer {
+  background-color: $primary-color1;
+  height: 8rem;
+  @include flex;
+
+  &__copyright {
+    color: $primary-color5;
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Arima;
+  src: url(../assets/Arima-VariableFont_wght.ttf) format("ttf");
+}
+body {
+  font-family: "Arima", monospace, serif;
+}
+
+.header {
+  background-color: #0b132b;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__title {
+  color: white;
+  font-size: 3rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a506b;
+}
+.main__max {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+}
+.main__img {
+  width: 50vw;
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.main__left-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__img {
+  padding: 2rem;
+}
+.main__right-box {
+  padding: 2rem;
+  max-width: 30rem;
+}
+.main__right-title {
+  font-size: 2rem;
+  color: #ffffff;
+}
+.main__content {
+  color: #ffffff;
+}
+.main__button {
+  border: none;
+  width: 5rem;
+  height: 3rem;
+  border-radius: 5px;
+  font-family: "Arima", monospace, serif;
+  background-color: #0b132b;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+.footer {
+  background-color: #0b132b;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__copyright {
+  color: #ffffff;
+  font-size: 0.8rem;
+}/*# sourceMappingURL=style.css.map */

@@ -23,4 +23,5 @@ Astronomy Picture of the Day Calendar using the React framework, integrating NAS
 
 # Roadmap
 - [ ] Change to another News API for better UX
+- [ ] Add hover effect for the button
 - [ ] Add Weather of that day

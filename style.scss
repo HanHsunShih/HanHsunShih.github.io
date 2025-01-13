@@ -17,6 +17,7 @@
 .main {
   @include flex;
   background-color: $primary-color3;
+  height: 100px;
 
   &__max {
     @include flex;
@@ -30,7 +31,7 @@
     border-radius: 5px;
   }
 
-  &__left-box {
+  &__space-box {
     @include flex;
   }
 
@@ -38,7 +39,7 @@
     padding: 2rem;
   }
 
-  &__right {
+  &__earth {
     &-box {
       padding: 2rem;
       max-width: 30rem;
